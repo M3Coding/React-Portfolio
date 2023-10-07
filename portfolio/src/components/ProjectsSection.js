@@ -5,29 +5,30 @@ import Card from "./Card";
 
 const projects = [
   {
-    title: "React Space",
+    title: "Pure HTML, CSS, JS Portfolio",
     description:
-      "Handy tool belt to create amazing AR components in a React app, with redux integration via middleware️",
-    getImageSrc: () => require("../images/photo1.jpg"),
+      "This a portfolio made from pure HTML, CSS, and Javascript.",
+    getImageSrc: () => require("../assets/PureHTMLCSSJSPortfolio.png"),
   },
   {
-    title: "React Infinite Scroll",
+    title: "Little Lemon Restaraunt",
     description:
-      "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️",
-    getImageSrc: () => require("../images/photo2.jpg"),
+      "A restaurant page with a menu, location, and reward signup page. ",
+    getImageSrc: () => require("/Users/apostlee/Documents/GitHub/React-Portfolio/portfolio/src/assets/LittleLemon.png"),
   },
   {
-    title: "Photo Gallery",
+    title: "React Calculator",
     description:
-      "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
-    getImageSrc: () => require("../images/photo3.jpg"),
+      "A react calculator 🔥️",
+    getImageSrc: () => require("../assets/reactcalc.png"),
   },
   {
-    title: "Event planner",
+    title: "Simple Calculator",
     description:
-      "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
-    getImageSrc: () => require("../images/photo4.jpg"),
+      "The simplest calculator built with JavaScript functionality.",
+    getImageSrc: () => require("../assets/simple calculator.jpeg"),
   },
+  
 ];
 
 const ProjectsSection = () => {
